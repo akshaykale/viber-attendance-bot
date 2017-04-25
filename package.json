@@ -1,0 +1,28 @@
+{
+  "name": "viberbot_ospd",
+  "version": "1.0.0",
+  "description": "viber bot interface",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://gitlab.com/akshaykale/viberbot_ospd.git"
+  },
+  "engines": {
+    "node": ">=5",
+    "npm": ">=3"
+  },
+  "author": "akshaykale",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "request": "^2.79.0",
+    "viber-bot": "^1.0.6",
+    "winston": "^2.3.1",
+    "winston-console-formatter": "^0.3.1"
+  }
+}
